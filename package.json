@@ -1,0 +1,30 @@
+{
+  "name": "car-scraper-cli",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Command line tool to make a table of purchasing information from carzone.ie links.",
+  "main": "src/car-scraper-cli.js",
+  "bin": {
+    "car-scraper-cli": "src/car-scraper-cli.js"
+  },
+  "scripts": {
+    "start": "node src/car-scraper-cli.js",
+    "prepublishOnly": "echo 'Ready to publish'"
+  },
+  "keywords": [
+    "car",
+    "scraper",
+    "cli",
+    "command-line",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cli-table3": "^0.6.0",
+    "inquirer": "^9.2.3",
+    "xlsx": "^0.18.5"
+  }
+}
