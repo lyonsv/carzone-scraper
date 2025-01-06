@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/carzone-scraper.svg)](https://www.npmjs.com/package/carzone-scraper)
+
 # 🚗 Carzone Comparison Tool
 
 A command-line tool for comparing multiple Carzone.ie listings in a structured format. Simplifies car research by collecting key information in one place.
