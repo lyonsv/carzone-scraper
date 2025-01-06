@@ -1,24 +1,25 @@
 {
-  "name": "car-scraper-cli",
+  "name": "carzone-scraper",
   "type": "module",
   "version": "1.0.0",
   "description": "Command line tool to make a table of purchasing information from carzone.ie links.",
-  "main": "src/car-scraper-cli.js",
+  "main": "src/carzone-scraper.js",
   "bin": {
-    "car-scraper-cli": "src/car-scraper-cli.js"
+    "carzone-scraper": "src/carzone-scraper.js"
   },
   "scripts": {
-    "start": "node src/car-scraper-cli.js",
+    "start": "node src/carzone-scraper.js",
     "prepublishOnly": "echo 'Ready to publish'"
   },
   "keywords": [
     "car",
+    "carzone",
     "scraper",
     "cli",
     "command-line",
     "javascript"
   ],
-  "author": "Your Name",
+  "author": "Vincent Lyons",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.4.0",
@@ -26,5 +27,13 @@
     "cli-table3": "^0.6.0",
     "inquirer": "^9.2.3",
     "xlsx": "^0.18.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyonsv/carzone-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lyonsv/carzone-scraper/issues"
+  },
+  "homepage": "https://github.com/lyonsv/carzone-scraper#readme"
 }
